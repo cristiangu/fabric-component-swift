@@ -1,14 +1,21 @@
-# react-native-new-lib
+# Swift Example Project
 
-Testing out things.
+In this example project, we have a React Native library with a Turbo Module using Swift and a Fabric component using Swift.
 
-## Installation
+For a step-by-step guide, [check out this article](https://cristiangutu.pro/using-swift-to-develop-a-fabric-component-in-react-natives-new-architecture/).
 
-```sh
-npm install react-native-new-lib
-```
+## Run the Example project
+
+- `yarn`
+- `cd example/ios`
+- `bundle install`
+- `RCT_NEW_ARCH_ENABLED=1 pod install`
+- Open the `example/ios/NewLibExample.xcworkspace` project in Xcode and run it.
+
 
 ## Usage
+
+Check out the `example/src/App.tsx` to see how this is being used.
 
 ```js
 import { multiply, MyComponentView } from 'react-native-new-lib';
