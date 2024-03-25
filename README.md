@@ -11,11 +11,13 @@ npm install react-native-new-lib
 ## Usage
 
 ```js
-import { multiply } from 'react-native-new-lib';
+import { multiply, MyComponentView } from 'react-native-new-lib';
 
 // ...
 
 const result = await multiply(3, 7);
+
+return <MyComponentView style={{ width: 60, height: 60 }} color="#64C17F" />
 ```
 
 ## Contributing
