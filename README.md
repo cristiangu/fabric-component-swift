@@ -27,7 +27,7 @@ const result = await multiply(3, 7);
 return <MyComponentView style={{ width: 60, height: 60 }} color="#64C17F" />
 ```
 
-## Good to know
+## Key takeaways from this project
 
 - Make sure to install the Pod dependencies for the New Arhictecture, `RCT_NEW_ARCH_ENABLED=1 pod install`
 - When exposing Swift code, make sure to add `@objc public` to classes and methods you want to expose in Objective-C/C++.
@@ -42,7 +42,7 @@ return <MyComponentView style={{ width: 60, height: 60 }} color="#64C17F" />
   "jsSrcsDir": "src"
 }
 ```
-- The template Fabric component project won't compile with Swift if you import pure C/C++ headers (you need to delete the Utils.m file). If you encounter any errors that look like this, it's because you're have those files in the project.
+- The template Fabric component project won't compile with Swift if you import pure C/C++ headers (you need to delete the Utils.m and Utils.h files). If you encounter any errors that look like this, it's because you're have those files in the project.
 
 ![C/C++ Xcode build error example](c-cpp-error-example.png)
 
