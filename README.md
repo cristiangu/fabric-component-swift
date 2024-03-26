@@ -2,7 +2,7 @@
 
 In this example project, we have a React Native library with a Turbo Module using Swift and a Fabric component using Swift.
 
-For a step-by-step guide, [check out this article](https://cristiangutu.pro/using-swift-to-develop-a-fabric-component-in-react-natives-new-architecture/).
+For a step-by-step guide, [check out this article](https://www.cristiangutu.pro/using-swift-in-fabric-components-and-turbo-modules/).
 
 ## Run the Example project
 
