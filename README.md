@@ -46,6 +46,11 @@ return <MyComponentView style={{ width: 60, height: 60 }} color="#64C17F" />
 
 ![C/C++ Xcode build error example](c-cpp-error-example.png)
 
+## Show your support
+
+* 🏋️‍♂️ Follow me on Twitter [@GutuCristian](https://twitter.com/GutuCristian) or [LinkedIn](https://www.linkedin.com/in/cristiangutu/) for updates.
+* ⭐️ Star this repo.
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
